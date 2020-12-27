@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+/* App */
+
+.App {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+/* Header Styling */
+
+.app-header {
+  background-color: white;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+}
+
+/* Post Styling */
+.post{
+  background-color: white;
+  max-width: 450px;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+}
+.post-img {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
+}
+.post-text {
+  font-weight: normal;
+  padding: 20px;
+}
+#post-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.post-avatar {
+  margin-right: 10px;
+}
